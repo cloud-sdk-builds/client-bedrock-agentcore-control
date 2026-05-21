@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-bedrock-agentcore-control`](https://www.npmjs.com/package/@aws-sdk/client-bedrock-agentcore-control/v/3.1050.0).
+[`@aws-sdk/client-bedrock-agentcore-control`](https://www.npmjs.com/package/@aws-sdk/client-bedrock-agentcore-control/v/3.1051.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-bedrock-agentcore-control - [https://cloud-sdk-builds.github.io/?sdk=client-bedrock-agentcore-control](https://cloud-sdk-builds.github.io/?sdk=client-bedrock-agentcore-control)
-- @aws-sdk/client-bedrock-agentcore-control v3.1050.0 - [https://cloud-sdk-builds.github.io/?sdk=client-bedrock-agentcore-control&version=3.1050.0](https://cloud-sdk-builds.github.io/?sdk=client-bedrock-agentcore-control&version=3.1050.0)
+- @aws-sdk/client-bedrock-agentcore-control v3.1051.0 - [https://cloud-sdk-builds.github.io/?sdk=client-bedrock-agentcore-control&version=3.1051.0](https://cloud-sdk-builds.github.io/?sdk=client-bedrock-agentcore-control&version=3.1051.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1050.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1051.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Td+qbtmQ+tjIXoZrtdtauMNWFYZCTHC6ZzZOxkKHYTCES3AoSBS2BIHu2cKeyBVO
+sha384-y902X4NoftB577Q3P5Qy03A3/Eus9cPCZEH1Clyc3LqjiKG6t0n/MXo/0PbUNSGg
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-bedrock-agentcore-control": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1050.0/index.min.mjs"
+            "@aws-sdk/client-bedrock-agentcore-control": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1051.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1050.0/index.min.mjs": "sha384-Td+qbtmQ+tjIXoZrtdtauMNWFYZCTHC6ZzZOxkKHYTCES3AoSBS2BIHu2cKeyBVO"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1051.0/index.min.mjs": "sha384-y902X4NoftB577Q3P5Qy03A3/Eus9cPCZEH1Clyc3LqjiKG6t0n/MXo/0PbUNSGg"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-bedrock-agentcore-control": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1050.0/index.min.mjs"
+                        "@aws-sdk/client-bedrock-agentcore-control": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1051.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1050.0/index.min.mjs": "sha384-Td+qbtmQ+tjIXoZrtdtauMNWFYZCTHC6ZzZOxkKHYTCES3AoSBS2BIHu2cKeyBVO"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bedrock-agentcore-control@3.1051.0/index.min.mjs": "sha384-y902X4NoftB577Q3P5Qy03A3/Eus9cPCZEH1Clyc3LqjiKG6t0n/MXo/0PbUNSGg"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1050.0`)
+* Always pin to a specific version (`@3.1051.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-bedrock-agentcore-control/blob/refs/tags/3.1050.0/LICENSE
+https://github.com/cloud-sdk-builds/client-bedrock-agentcore-control/blob/refs/tags/3.1051.0/LICENSE
 ```
 
 ---
